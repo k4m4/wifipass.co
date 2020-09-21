@@ -7,6 +7,9 @@ const Meta = () => {
 			<meta property="og:description" content="Create an Apple Wallet Pass for your WiFi credentials." />
 			<meta property="og:site_name" content="WiFi Pass" />
 			<meta property="og:image" content="/static/images/logo.png" />
+			<meta property="og:image:alt" content="WiFi Pass"/>
+			<meta property="og:image:width" content="1200"/>
+			<meta property="og:image:height" content="1200"/>
 			<meta name="twitter:card" content="summary_large_image"/>
 			<meta name="twitter:creator" content="@nikolaskama" />
 			<meta property="twitter:description" content="Create an Apple Wallet Pass for your WiFi credentials." />
