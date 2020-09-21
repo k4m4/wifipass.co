@@ -1,6 +1,6 @@
 body {
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 }
@@ -26,18 +26,21 @@ p {
 }
 
 h1 {
-	font-weight: normal;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
 	font-size: 32px;
 	text-align: center;
 	margin-bottom: 10px;
 }
 
 h2 {
+	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
-	font-weight: normal;
+	font-weight: 400;
 }
 
 button {
+	font-family: 'Montserrat', sans-serif;
 	background: #2c2c2c;
 	color: #d3d3d3;
 	border: #2c2c2c 2px solid;
@@ -48,10 +51,6 @@ button {
 	text-decoration: none;
 	font-size: 15px;
 	cursor: pointer;
-}
-
-h1, h2, button {
-	font-family: 'Montserrat', sans-serif;
 }
 
 button:hover {
@@ -74,18 +73,18 @@ input {
 	font-weight: 200;
 	min-width: 150px;
 	max-width: 300px;
-	letter-spacing: 0.1em;
-	transition: border-bottom-color 100ms ease-in, color 100ms ease-in;
+	letter-spacing: .1em;
+	transition: border-bottom-color .1s ease-in, color .1s ease-in;
 	border-radius: 0;
 }
 
-form input[type="submit"] {
+form input[type=submit] {
 	display: none;
 }
 
 input:focus {
 	outline: none;
-	border-color: black;
+	border-color: #000;
 }
 
 form label {
@@ -95,7 +94,7 @@ form label {
 	display: inline-block;
 }
 
-form label.password {
+form .password {
 	margin-top: 15px;
 }
 
@@ -136,7 +135,7 @@ footer nav {
 	align-items: center;
 	font-size: 13px;
 	color: #b2b2b2;
-	transition: color 100ms ease-in;
+	transition: color .1s ease-in;
 }
 
 footer nav ul {
@@ -161,7 +160,7 @@ footer nav a {
 }
 
 footer nav a:hover {
-	color: white;
+	color: #000;
 }
 
 .dim {
@@ -194,17 +193,17 @@ footer nav a:hover {
 
 @media (prefers-color-scheme: dark) {
 	body {
-		background: black;
-		color: white;
+		background: #000;
+		color: #fff;
 	}
 
 	input {
-		color: white;
+		color: #fff;
 		border-color: #696969;
 	}
 
 	input:focus {
-		border-color: white;
+		border-color: #fff;
 	}
 
 	button {
@@ -218,7 +217,7 @@ footer nav a:hover {
 	}
 
 	footer nav a:hover {
-		color: black;
+		color: #fff;
 	}
 }
 
