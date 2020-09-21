@@ -1,0 +1,239 @@
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body > div:first-child,
+body > div:first-child > div:first-child,
+body > div:first-child > div:first-child > div {
+	height: inherit;
+}
+
+p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 24px;
+	max-width: 390px;
+	text-align: center;
+	margin: 10px auto 30px auto;
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: normal;
+}
+
+button {
+	background: #2c2c2c;
+	color: #d3d3d3;
+	border: #2c2c2c 2px solid;
+	margin-top: 25px;
+	padding: 5px 10px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+h1, h2, button {
+	font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+	background: transparent;
+	color: #2c2c2c;
+}
+
+button:focus {
+	outline: 0;
+}
+
+input {
+	background: transparent;
+	box-sizing: border-box;
+	padding: 9px 10px;
+	border: 0;
+	text-align: center;
+	border-bottom: 1px solid #d8d8d8;
+	font-size: 16px;
+	font-weight: 200;
+	min-width: 150px;
+	max-width: 300px;
+	letter-spacing: 0.1em;
+	transition: border-bottom-color 100ms ease-in, color 100ms ease-in;
+	border-radius: 0;
+}
+
+form input[type="submit"] {
+	display: none;
+}
+
+input:focus {
+	outline: none;
+	border-color: black;
+}
+
+form label {
+	font-size: 18px;
+	margin-bottom: 3px;
+	font-weight: 500;
+	display: inline-block;
+}
+
+form label.password {
+	margin-top: 15px;
+}
+
+main {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	box-sizing: border-box;
+	flex-direction: column;
+}
+
+.content {
+	text-align: center;
+	max-width: 100%;
+
+	-webkit-animation: fadein 2s;
+	 -moz-animation: fadein 2s;
+		-ms-animation: fadein 2s;
+		 -o-animation: fadein 2s;
+				animation: fadein 2s;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 50px 0 40px 0;
+	position: relative;
+}
+
+footer nav {
+	height: 18px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 13px;
+	color: #b2b2b2;
+	transition: color 100ms ease-in;
+}
+
+footer nav ul {
+	padding: 0;
+}
+
+footer nav li {
+	display: inline-block;
+	list-style-type: none;
+	padding-right: 10px;
+	border-right: solid 1px #b2b2b2;
+	padding-left: 10px;
+}
+
+footer nav li:last-child { 
+	border-right: none;
+}
+
+footer nav a {
+	color: #b2b2b2;
+	text-decoration: none;
+}
+
+footer nav a:hover {
+	color: white;
+}
+
+.dim {
+	opacity: 1;
+	transition: opacity .15s ease-in;
+}
+.dim:hover,
+.dim:focus {
+	opacity: .5;
+	transition: opacity .15s ease-in;
+}
+.dim:active {
+	opacity: .8; transition: opacity .15s ease-out;
+}
+
+@keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+	from { opacity: 0; }
+	to   { opacity: 1; }
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background: black;
+		color: white;
+	}
+
+	input {
+		color: white;
+		border-color: #696969;
+	}
+
+	input:focus {
+		border-color: white;
+	}
+
+	button {
+		background: #d3d3d3;
+		color: #2c2c2c;
+		border: #d3d3d3 2px solid;
+	}
+
+	button:hover {
+		color: #d3d3d3;
+	}
+
+	footer nav a:hover {
+		color: black;
+	}
+}
+
+@media (min-width: 768px) {
+	input {
+		min-width: 250px;
+		max-width: 620px;
+	}
+}
+
+@media (min-height: 600px) {
+	footer {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+	}
+}

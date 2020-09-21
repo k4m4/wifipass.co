@@ -1,0 +1,22 @@
+{
+	"name": "wifipass",
+	"version": "1.0.0",
+	"scripts": {
+		"dev": "next",
+		"start": "next start",
+		"build": "next build",
+		"now-build": "next build",
+		"export": "next export"
+	},
+	"dependencies": {
+		"@sindresorhus/slugify": "^0.10.1",
+		"comma-number": "^2.0.1",
+		"firebase": "^7.21.0",
+		"firebase-admin": "^9.2.0",
+		"next": "^9.1.6",
+		"passkit-generator": "^2.0.5",
+		"react": "^16.12.0",
+		"react-dom": "^16.12.0",
+		"react-input-autosize": "^2.2.2"
+	}
+}

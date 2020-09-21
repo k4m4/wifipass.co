@@ -1,0 +1,54 @@
+{
+	"formatVersion": 1,
+	"passTypeIdentifier": "pass.com.wifiwallet",
+	"serialNumber": "123456",
+	"teamIdentifier": "TFQD8JA2AR",
+	"barcodes": [{
+		"message": "Mars2021!",
+		"format": "PKBarcodeFormatQR",
+		"messageEncoding": "iso-8859-1"
+	}],
+	"barcode": {
+		"message": "Mars2021!",
+		"format": "PKBarcodeFormatQR",
+		"messageEncoding": "iso-8859-1"
+	},
+	"logoText": "WiFi Pass",
+	"organizationName": "WiFi Wallet",
+	"description": "SpaceX WiFi",
+	"foregroundColor": "rgb(255, 255, 255)",
+	"backgroundColor": "rgb(60, 65, 76)",
+	"generic": {
+		"primaryFields": [
+			{
+				"key": "network",
+				"label": "NETWORK SSID",
+				"value": "SpaceX WiFi"
+			}
+		],
+		"secondaryFields": [
+			{
+				"key": "pass",
+				"label": "PASSWORD",
+				"value": "Mars2021!"
+			}
+		],
+		"backFields": [
+			{
+				"key": "website",
+				"label": "Create another WiFi Pass",
+				"value": "https://wifipass.co"
+			},
+			{
+				"key": "qr-usage",
+				"label": "Using the QR code",
+				"value": "Users with mobile devices can join the network by simply scanning the QR code."
+			},
+			{
+				"key": "contact",
+				"label": "Reach out to us",
+				"value": "info@wifipass.co"
+			}
+		]
+	}
+}
