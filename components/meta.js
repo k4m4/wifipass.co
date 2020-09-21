@@ -9,6 +9,8 @@ const Meta = () => {
 			<meta property="og:image" content="/static/images/logo.png" />
 			<meta name="twitter:card" content="summary_large_image"/>
 			<meta name="twitter:creator" content="@nikolaskama" />
+			<meta property="twitter:description" content="Create an Apple Wallet Pass for your WiFi credentials." />
+			<meta property="twitter:image" content="/static/images/logo.png" />
 			<meta name="viewport" content="width=device-width, initial-scale=1" />
 			<link rel="stylesheet" href="/static/styles/index.css" />
 			<link rel="apple-touch-icon" sizes="180x180" href="/static/images/apple-touch-icon.png" />
