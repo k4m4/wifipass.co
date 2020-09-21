@@ -53,13 +53,11 @@ button {
 	cursor: pointer;
 }
 
-button:hover {
-	background: transparent;
-	color: #2c2c2c;
-}
-
+button:hover,
 button:focus {
 	outline: 0;
+	background: transparent;
+	color: #2c2c2c;
 }
 
 input {
@@ -159,7 +157,9 @@ footer nav a {
 	text-decoration: none;
 }
 
-footer nav a:hover {
+footer nav a:hover,
+footer nav a:focus {
+	outline: 0;
 	color: #000;
 }
 
@@ -212,11 +212,13 @@ footer nav a:hover {
 		border: #d3d3d3 2px solid;
 	}
 
-	button:hover {
+	button:hover,
+	button:focus {
 		color: #d3d3d3;
 	}
 
-	footer nav a:hover {
+	footer nav a:hover,
+	footer nav a:focus {
 		color: #fff;
 	}
 }
