@@ -2,7 +2,7 @@ const Meta = () => {
 	return (
 		<>
 			<title>WiFi Pass</title>
-			<meta property="og:title" content="The Rock" />
+			<meta property="og:title" content="WiFi Pass" />
 			<meta name="description" content="Create an Apple Wallet Pass for your WiFi." />
 			<meta property="og:description" content="Create an Apple Wallet Pass for your WiFi." />
 			<meta property="og:site_name" content="WiFi Pass" />
