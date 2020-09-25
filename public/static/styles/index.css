@@ -76,6 +76,10 @@ input {
 	border-radius: 0;
 }
 
+img {
+	max-height: 300px;
+}
+
 form input[type=submit] {
 	display: none;
 }
