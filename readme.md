@@ -19,9 +19,9 @@
 
 1. Create a new Firebase project in the [Firebase console's project overview page](https://console.firebase.google.com/).
 1. Add the project ID to the `FIREBASE_PROJECT_ID` environment variable.
-1. Navigate to your project's "Service accounts" settings (`Project Settings > Service accounts`) to generate a public key.
+1. Navigate to your project's "Service accounts" settings (`Project Settings > Service accounts`) to generate a private key.
 1. Encode the private key using `base64` and add it to your `FIREBASE_PRIVATE_KEY` environment variable.
-1. The file that was downloaded when generating the Firebase public key should also include a `client_email` address. Use that for your `FIREBASE_CLIENT_EMAIL` environment variable.
+1. The file that was downloaded when generating the Firebase private key should also include a `client_email` address. Use that for your `FIREBASE_CLIENT_EMAIL` environment variable.
 1. In the Firebase console, navigate to the `Realtime Database` page. Copy the database's URL and add it to the `FIREBASE_DB_URL` environmet variable.
 
 ## Development
