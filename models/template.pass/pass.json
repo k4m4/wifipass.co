@@ -1,8 +1,8 @@
 {
 	"formatVersion": 1,
-	"passTypeIdentifier": "pass.com.wifiwallet",
-	"serialNumber": "123456",
-	"teamIdentifier": "TFQD8JA2AR",
+	"passTypeIdentifier": "pass.com.kama.wifipass",
+	"serialNumber": "1337",
+	"teamIdentifier": "SE4U8J23E4",
 	"barcodes": [{
 		"message": "Mars2021!",
 		"format": "PKBarcodeFormatQR",
